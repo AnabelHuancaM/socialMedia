@@ -1,0 +1,54 @@
+---
+import Cards from '../components/Cards.astro';
+import Profile from '../components/Profile.astro';
+import Layout from '../layouts/Layout.astro';
+
+import InstagramIcon from '../components/Icons/Instagram.astro';
+import GithubIcon from '../components/Icons/Github.astro';
+import LinkedinIcon from '../components/Icons/Linkedin.astro';
+import SpotifyIcon from '../components/Icons/Spotify.astro';
+import SteamIcon from '../components/Icons/Steam.astro';
+---
+
+<Layout title="Redes sociales | anabelhumor - Anabel Huanca">
+	<main class="px-5">
+		<Profile/>
+		<h1 class="text-white font-bold lg:text-4xl 
+		justify-center flex 
+		gap-x-4 mb-2 sm:text-2xl ">
+		@anabelhumor</h1>
+		<p class="text-center text-white mb-5">
+			Hola! :D Estas son mis redes sociales disponibles.<br />
+		</p>
+		<Cards href="https://github.com/AnabelHuancaM" >
+			<GithubIcon class="size-8 md:size-6" />
+			Github
+		</Cards>
+		
+		<Cards href="https://www.instagram.com/">
+			<InstagramIcon class="size-8 md:size-6" />
+			Instagram
+		</Cards>
+
+		<Cards href="https://letterboxd.com/laravel" >
+			<img src="/letterbox.png" class="size-8 md:size-6">
+			Letter Box
+		</Cards>
+
+		<Cards href="https://www.linkedin.com/in/anabelhuancam/" >
+			<LinkedinIcon class="size-8 md:size-6"/>
+			LinkedIn
+		</Cards>
+
+		<Cards href="https://open.spotify.com/user/o4vdggzby9hybtj3f17nl8esf" >
+			<SpotifyIcon class="size-8 md:size-6"/>
+			Spotify
+		</Cards>
+
+		<Cards href="">
+			<SteamIcon class="size-8 md:size-6"/>
+			Steam
+		</Cards>
+
+	</main>
+</Layout>
