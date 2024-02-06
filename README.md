@@ -16,10 +16,9 @@
   <p>Astro</p>
 </div>
 
->  **Basado en Linktree** 
-###
-
 ## Website
 Here is a working live demo : (https://social-anabelhumor.vercel.app/)
 ###
-![img](https://github.com/AnabelHuancaM/socialMedia/assets/91922240/794fd6d4-b947-4a2d-93c2-7a099bf346a7)
+
+![alt text](Captur2.JPG) 
+
