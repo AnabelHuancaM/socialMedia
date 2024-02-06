@@ -11,8 +11,8 @@ import SteamIcon from '../components/Icons/Steam.astro';
 import Footer from '../components/Footer.astro';
 ---
 
-<Layout title="Redes sociales | anabelhumor - Anabel Huanca">
-	<main class="px-5 py-5 my-12">
+<Layout title="Redes sociales | anabelhumor - Anabel Huanca" >
+	<main class="px-5 py-5 my-8 md:my-12">
 		<Profile/>
 		<h1 class="text-white font-bold lg:text-4xl 
 		justify-center flex 
@@ -25,33 +25,33 @@ import Footer from '../components/Footer.astro';
 			<GithubIcon class="size-8 md:size-6" />
 			Github
 		</Cards>
+				
+		<Cards href="https://letterboxd.com/laravel" >
+			<img src="/letterbox.png" class="size-8 md:size-6">
+			Letter Box
+		</Cards>
 		
+		<Cards href="https://www.linkedin.com/in/anabelhuancam/" >
+			<LinkedinIcon class="size-8 md:size-6"/>
+			LinkedIn
+		</Cards>
+		
+		<Cards href="https://open.spotify.com/user/o4vdggzby9hybtj3f17nl8esf" >
+			<SpotifyIcon class="size-8 md:size-6"/>
+			Spotify
+		</Cards>
+		
+		<Cards href="https://steamcommunity.com/profiles/76561199602866413/">
+			<SteamIcon class="size-8 md:size-6"/>
+			Steam
+		</Cards>
+
 		<Cards href="https://www.instagram.com/anabel.lovelace">
 			<InstagramIcon class="size-8 md:size-6" />
 			Instagram
 		</Cards>
 
-		<Cards href="https://letterboxd.com/laravel" >
-			<img src="/letterbox.png" class="size-8 md:size-6">
-			Letter Box
-		</Cards>
-
-		<Cards href="https://www.linkedin.com/in/anabelhuancam/" >
-			<LinkedinIcon class="size-8 md:size-6"/>
-			LinkedIn
-		</Cards>
-
-		<Cards href="https://open.spotify.com/user/o4vdggzby9hybtj3f17nl8esf" >
-			<SpotifyIcon class="size-8 md:size-6"/>
-			Spotify
-		</Cards>
-
-		<Cards href="">
-			<SteamIcon class="size-8 md:size-6"/>
-			Steam
-		</Cards>
-
 	</main>
 
-	<Footer></Footer>
+	<Footer/>
 </Layout>
