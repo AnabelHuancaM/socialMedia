@@ -12,7 +12,6 @@
 
 <div align="left">
     <img src="public\favicon.svg"  height="40">
-
   <p>Astro</p>
 </div>
 
@@ -20,5 +19,4 @@
 Here is a working live demo : (https://social-anabelhumor.vercel.app/)
 ###
 
-![alt text](Captur2.JPG) 
-
+![alt text](captura.JPG) 
